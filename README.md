@@ -6,7 +6,7 @@ Proyecto de galería interactiva de imágenes optimizada para dispositivos moder
 Hugo Martin Sanchez
 
 ## Enlace
-[GitHub Pages]([https://tuusuario.github.io/tu-repositorio](https://hugomartiin.github.io/galeriaFotos/))
+[GitHub Pages](https://hugomartiin.github.io/galeriaFotos/)
 
 ## Instrucciones
 1. Clona el repositorio.
