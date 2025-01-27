@@ -1,12 +1,12 @@
-import imagenAbadia from './imgSizes/imagenAbadia-small-1x..jpg';
-import imagenCzecha from './imgSizes/imagenCzecha-small-1x..jpg';
-import imagenAgua from './imgSizes/imagenAgua-small-1x..jpg';
-import imagenMuralla from './imgSizes/imagenMuralla-small-1x..jpg';
-import imagenTokio from './imgSizes/imagenTokio-small-1x..jpg';
-import imagenAtardecer from './imgSizes/imagenAtardecer-small-1x..jpg';
-import imagenGalicia from './imgSizes/imagenGalicia-small-1x..jpg';
-import imagenReloj from './imgSizes/imagenReloj-small-1x..jpg';
-import imagenEdimburgo from './imgSizes/imagenEdimburgo-small-1x..jpg';
+//import imagenAbadia from './imgSizes/imagenAbadia-small-1x..jpg';
+//import imagenCzecha from './imgSizes/imagenCzecha-small-1x..jpg';
+//import imagenAgua from './imgSizes/imagenAgua-small-1x..jpg';
+//import imagenMuralla from './imgSizes/imagenMuralla-small-1x..jpg';
+//import imagenTokio from './imgSizes/imagenTokio-small-1x..jpg';
+//import imagenAtardecer from './imgSizes/imagenAtardecer-small-1x..jpg';
+//import imagenGalicia from './imgSizes/imagenGalicia-small-1x..jpg';
+//import imagenReloj from './imgSizes/imagenReloj-small-1x..jpg';
+//import imagenEdimburgo from './imgSizes/imagenEdimburgo-small-1x..jpg';
 
 
 
@@ -19,16 +19,42 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log(screen.width);
 
   const images = [
-    { src: imagenAbadia, alt: 'La abadía de Whitby, conocida en el periodo anglosajón como Streoneshalh, es una abadía benedictina en ruinas situada junto a la orilla del mar del Norte en el acantilado oriental por encima de Whitby en Yorkshire del Norte, Inglaterra.' },
-    { src: imagenCzecha, alt: 'El mausoleo de los Schwarzenberg, el lugar donde descansa una de las familias aristocráticas checas más poderosas' },
-    { src: imagenAgua, alt: 'El Monte Saint-Michel es un pueblo construido sobre una pequeña isla rocosa del estuario del río Couesnon, en Normandía, alrededor de la Abadía del Monte Saint-Michel.' },
-    { src: imagenMuralla, alt: 'Imagen de dos torres de una muralla localizadas en en Reino Unido.' },
-    { src: imagenTokio, alt: 'El castillo de Himeji es un castillo japonés localizado en la ciudad costera de Himeji en la prefectura de Hyōgo, a unos 47 km al oeste de Kōbe' },
-    { src: imagenAtardecer, alt: 'El castillo de Neuschwanstein está situado en el estado federado de Baviera, en Hohenschwangau, cerca de Füssen. Lo mandó a construir el rey Luis II de Baviera en 1869. Su nombre original era Nuevo castillo de Hohenschwangau, ​ en honor al castillo donde el rey pasó gran parte de su infancia.' },
-    { src: imagenGalicia, alt: 'El castillo de Edimburgo es una antigua fortaleza erigida sobre una roca de origen volcánico ubicada en el centro de la ciudad de Edimburgo, Escocia. Aunque existen restos humanos desde la Edad del Hierro, el primer castillo se construyó durante el reinado de David I y continuó como residencia real hasta 1633.' },
-    { src: imagenReloj, alt: 'Calton Hill es una mezcla de zonas comerciales concurridas y calles residenciales tranquilas. En la propia colina, con vistas a la ciudad, se encuentra la galería de arte contemporáneo Collective y el Monumento Nacional, sin acabar. La parte de arriba de la concurrida Leith Walk está llena de bares gais y restaurantes informales, y en el Edinburgh Playhouse se presentan musicales y espectáculos de humor.' },
-    { src: imagenEdimburgo, alt: 'Este edificio, de estilo gótico tardío, parece formar parte de un complejo arquitectónico histórico, probablemente un castillo o una iglesia adaptada para otros fines. Sus muros de piedra maciza, coronados por pináculos decorativos, reflejan un diseño típico del gótico europeo.' },
-
+    {
+      src: '/imgSizes/imagenAbadia-small-1x..jpg',
+      alt: 'La abadía de Whitby, conocida en el periodo anglosajón como Streoneshalh, es una abadía benedictina en ruinas situada junto a la orilla del mar del Norte en el acantilado oriental por encima de Whitby en Yorkshire del Norte, Inglaterra.',
+    },
+    {
+      src: '/imgSizes/imagenCzecha-small-1x..jpg',
+      alt: 'El mausoleo de los Schwarzenberg, el lugar donde descansa una de las familias aristocráticas checas más poderosas.',
+    },
+    {
+      src: '/imgSizes/imagenAgua-small-1x..jpg',
+      alt: 'El Monte Saint-Michel es un pueblo construido sobre una pequeña isla rocosa del estuario del río Couesnon, en Normandía, alrededor de la Abadía del Monte Saint-Michel.',
+    },
+    {
+      src: '/imgSizes/imagenMuralla-small-1x..jpg',
+      alt: 'Imagen de dos torres de una muralla localizadas en el Reino Unido.',
+    },
+    {
+      src: '/imgSizes/imagenTokio-small-1x..jpg',
+      alt: 'El castillo de Himeji es un castillo japonés localizado en la ciudad costera de Himeji en la prefectura de Hyōgo, a unos 47 km al oeste de Kōbe.',
+    },
+    {
+      src: '/imgSizes/imagenAtardecer-small-1x..jpg',
+      alt: 'El castillo de Neuschwanstein está situado en el estado federado de Baviera, en Hohenschwangau, cerca de Füssen.',
+    },
+    {
+      src: '/imgSizes/imagenGalicia-small-1x..jpg',
+      alt: 'El castillo de Edimburgo es una antigua fortaleza erigida sobre una roca de origen volcánico ubicada en el centro de la ciudad de Edimburgo, Escocia.',
+    },
+    {
+      src: '/imgSizes/imagenReloj-small-1x..jpg',
+      alt: 'Calton Hill es una mezcla de zonas comerciales concurridas y calles residenciales tranquilas.',
+    },
+    {
+      src: '/imgSizes/imagenEdimburgo-small-1x..jpg',
+      alt: 'Este edificio, de estilo gótico tardío, parece formar parte de un complejo arquitectónico histórico.',
+    },
   ];
 
   images.forEach(image => {
